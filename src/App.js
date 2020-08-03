@@ -2,13 +2,13 @@ import './App.css'
 
 import React from 'react'
 
-import ColorsList from './3.list/ColorsList'
+import ColorsView from './5.hooks/ColorsView'
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<ColorsList />
+				<ColorsView />
 			</header>
 		</div>
 	)
