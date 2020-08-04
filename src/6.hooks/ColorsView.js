@@ -1,11 +1,13 @@
 import React from 'react'
 
-import ColorsHandler, { useColors } from './ColorsHandler'
+import ColorForm from './ColorForm'
+import ColorsHandler from './ColorsHandler'
 import ColorsList from './ColorsList'
 
 const ColorsView = () => {
 	return (
 		<ColorsHandler>
+			<ColorForm />
 			<ColorsList />
 		</ColorsHandler>
 	)

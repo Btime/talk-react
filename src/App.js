@@ -2,7 +2,7 @@ import './App.css'
 
 import React from 'react'
 
-import ColorsView from './5.hooks/ColorsView'
+import ColorsView from './6.hooks/ColorsView'
 
 function App() {
 	return (

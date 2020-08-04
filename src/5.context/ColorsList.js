@@ -9,14 +9,11 @@ const ColorsList = () => {
 	const { colors, addColor, setLike } = useColorsContext()
 
 	return (
-		<div>
-			<ColorForm />
-			<Grid>
-				{colors.map((color, index) => (
-					<ColorItem key={index} name={color.name} like={color.like} toggleLike={() => setLike(index, !color.like)} />
-				))}
-			</Grid>
-		</div>
+		<Grid>
+			{colors.map((color, index) => (
+				<ColorItem key={index} name={color.name} like={color.like} toggleLike={() => setLike(index, !color.like)} />
+			))}
+		</Grid>
 	)
 }
 
